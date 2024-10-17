@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main id="main">
+        <div class="main-handler">
+            <div class="main-card">
+                <div data-card="q-1" class="q-card">
+                    <div id="cards" class="q-card-content">
+
+                    </div>
+                </div>
+                <div id="btn-group" class="btn-group">
+                    <button data-answer="N" class="btn-swipe btn-n">
+                        <div class="btn-icon-container">
+                            <img src="img/croix.svg" class="btn-icon" />
+                        </div>
+                    </button>
+                    <button data-answer="Y" class="btn-swipe btn-y">
+                        <div class="btn-icon-container">
+                            <img src="img/coeur.svg" class="btn-icon" />
+                        </div>
+                    </button>
+                </div>
+                <div id="btn-reset" class="btn-group" style="display: none;">
+                    <button class="btn-swipe btn-n">
+                        <div class="btn-icon-container" style="color: white; font-weight: bold;">
+                            RESET
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/utils.js"></script>
+    <script src="./js/Question.js"></script>
+    <script src="./js/posts.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
